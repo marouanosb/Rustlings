@@ -3,7 +3,11 @@ fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
     } else {
+<<<<<<< HEAD
         "bar"
+=======
+        1
+>>>>>>> 5f23f738de0a4a2d7d833fd9c870f8b8d71a434f
     }
 }
 

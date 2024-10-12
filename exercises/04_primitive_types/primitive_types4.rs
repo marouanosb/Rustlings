@@ -10,7 +10,11 @@ mod tests {
 
         // TODO: Get a slice called `nice_slice` out of the array `a` so that the test passes.
         // let nice_slice = ???
+<<<<<<< HEAD
         let nice_slice = &a[1..4];
+=======
+
+>>>>>>> 5f23f738de0a4a2d7d833fd9c870f8b8d71a434f
         assert_eq!([2, 3, 4], nice_slice);
     }
 }
