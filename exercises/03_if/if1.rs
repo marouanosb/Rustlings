@@ -8,7 +8,9 @@ fn bigger(a: i32, b: i32) -> i32 {
 }
 
 fn main() {
-    // You can optionally experiment here.
+    let x = 5;
+    let y = 10;
+    println!("{} is bigger.",bigger(x, y));
 }
 
 // Don't mind this for now :)
